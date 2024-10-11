@@ -1,0 +1,29 @@
+.portfolio {
+  max-width: 962px;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  padding: 22px 70px 22px 110px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  position: absolute;
+  right: 45px;
+  bottom: 25px;
+  color: #4f4f4f;
+  text-align: right;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}

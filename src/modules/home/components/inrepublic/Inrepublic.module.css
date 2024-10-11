@@ -1,0 +1,104 @@
+.portfolio {
+  max-width: 962px;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  padding: 110px 70px 110px 110px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 110px;
+}
+
+.tag {
+  position: absolute;
+  right: 45px;
+  bottom: 25px;
+  color: #4f4f4f;
+  text-align: right;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 30px;
+}
+
+.textLogo {
+  color: #4f4f4f;
+  font-family: Rubik, sans-serif;
+  font-size: 9.41px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.text {
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 25px;
+}
+
+.linkMore {
+  font-family: Montserrat, sans-serif;
+  color: #2f80ed;
+  display: block;
+  font-size: 16px;
+  text-decoration-line: underline;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.downloadBlock {
+  display: flex;
+  gap: 10px;
+}
+
+.logoBlockMob {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .portfolio {
+    padding: 46px 35px 70px;
+  }
+  .content {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .logoBlock {
+    display: none;
+  }
+
+  .logoBlockMob {
+    display: flex;
+  }
+
+  .tag {
+    left: 35px;
+    text-align: left;
+  }
+
+  .mobImage {
+    width: 100%;
+  }
+}

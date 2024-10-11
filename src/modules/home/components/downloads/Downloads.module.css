@@ -1,0 +1,27 @@
+.downloadBlock {
+  display: flex;
+  gap: 10px;
+}
+
+.qrBlock {
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  background: #fff;
+}
+
+.closeBtn {
+  position: absolute;
+  right: -9px;
+  bottom: -9px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .qrBlock {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

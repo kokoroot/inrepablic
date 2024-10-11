@@ -1,0 +1,16 @@
+.footer {
+  background: #fff;
+  padding: 25px;
+}
+
+.inrepublic {
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 1140px;
+  margin: auto;
+}

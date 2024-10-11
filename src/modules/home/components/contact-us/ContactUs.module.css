@@ -1,0 +1,158 @@
+.contactUs {
+  max-width: 962px;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  padding: 22px 30px;
+}
+
+.title {
+  color: #4f4f4f;
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+
+.inputs {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 35px;
+  width: 100%;
+}
+
+.inputs input::placeholder {
+  color: #bdbdbd;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.inputs input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 15px;
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex: 1;
+  padding-left: 35px;
+  border-radius: 0;
+}
+
+.messageLabel {
+  color: #828282;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageLabel textarea {
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  border-bottom: 1px solid #000;
+  color: #000;
+  padding-left: 35px;
+  resize: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 0;
+}
+
+.messageLabel textarea::placeholder {
+  color: #bdbdbd;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.submitBtn {
+  display: block;
+  border-radius: 5px;
+  background: #6fcf97;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 62px;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.submitBtn:disabled {
+  background: #bdbdbd;
+}
+
+.blockSuccess {
+  text-align: center;
+  border-radius: 20px;
+  background: #f3fcf7;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 45px;
+}
+
+.textSuccess {
+  margin-top: 40px;
+  color: #000;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 55px;
+  max-width: 392px;
+}
+
+.btnClose {
+  color: #000;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .contactUs {
+    padding: 38px 40px 45px;
+  }
+  .title {
+    text-align: center;
+  }
+  .inputs {
+    flex-direction: column;
+  }
+
+  .submitBtn {
+    margin: 45px auto 0;
+  }
+  .inputs input {
+    padding-left: 15px;
+  }
+
+  .messageLabel textarea {
+    padding-left: 15px;
+  }
+}
